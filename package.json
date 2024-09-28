@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "predeploy": "pnpm install && pnpm run build",
-    "prebuild": "rimraf dist",
+    "prebuild": "pnpx rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
