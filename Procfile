@@ -1,1 +1,1 @@
-web: ls -l && pnpm install && pnpm run build && ls -l dist && pnpm run start:prod
+web: pnpm run start:prod
